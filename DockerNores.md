@@ -47,6 +47,8 @@ Espera a que el STATUS de kafka diga healthy (puede tomar ~30 segundos). Mientra
 
 ´´´bash
 docker exec kcat kcat -b localhost:9092 -L
+o
+docker exec kcat kcat -b kafka:9092 -L
 ´´´
 
 Deberías ver la metadata del broker. Esto confirma que Kafka está operativo.
