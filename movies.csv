@@ -1,0 +1,6 @@
+timestamp,user_id,request_type,status_code,recommendations,response_time
+2026-04-16 20:13:28,user123,recommendation request,200,movie1|movie2|movie3,45 ms
+2026-04-16 20:13:29,user456,recommendation request,200,movie4|movie5,120 ms
+2026-04-16 20:13:30,user789,recommendation request,404,,,12 ms
+2026-04-16 20:13:31,user321,recommendation request,500,,,8 ms
+2026-04-16 20:13:32,user654,recommendation request,200,movie6|movie7|movie8,67 ms
